@@ -11,8 +11,8 @@ export class animal {
         this.sede = sede
     }
 
-    getNome():void{this.nome = nome}
-
+public getNome():string{return this.nome}
+    
     public buscarRecurso(nomeDoRecurso:string):void{
         console.log("Buscou "+nomeDoRecurso)
     }
