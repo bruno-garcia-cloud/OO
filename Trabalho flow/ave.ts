@@ -5,8 +5,7 @@ export class ave extends animal{
     constructor(nome:string,especie:string,fome:number,sede:number){
         super(especie,nome,sede,fome);
     }
-
-    getNome():void{this.nome = nome}
+public getNome():string{return this.nome}
 
 }
 
