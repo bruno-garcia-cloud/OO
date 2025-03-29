@@ -1,15 +1,13 @@
-export class aluno {
-private nome:string;
+import { usuario } from "./usuario";
+
+export class aluno extends usuario{
 private idade:number;
 private peso:number;
 private altura:number;
 
 
-public constructor(nome:string,idade:number,peso:number,altura:number){
-    this.nome = nome
-    this.idade = idade
-    this.altura = altura
-    this.peso = peso
+public constructor(nome:string,email:string,idade:number,peso:number,altura:number){
+   super(nome,email)
    
 }
 
